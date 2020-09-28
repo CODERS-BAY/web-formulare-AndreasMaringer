@@ -1,0 +1,190 @@
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+body, html {
+    margin: 0;
+    padding: 0;
+    
+}
+h1 {
+    font-family: 'Komika Sketch';     
+}
+h2 {
+    font-family: 'Komika Sketch';
+    font-size: 2rem;
+    text-align: center;
+}
+.container {
+    margin: 0 auto;
+    max-width: 1200px;
+    padding: 0 20px;
+    width: 100%;
+}
+header {
+    background-color: #fff;
+    box-shadow: 1px 1px 10px #777;
+    height: 100px;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+
+}
+header .container {
+    height: 60px;
+}
+#logo {
+    float: left;
+    height: 100%;
+    }
+#logo img {
+    height: 100%;
+}
+#mainnav, #footermenu {
+    float: right;
+    margin: 0;
+}    
+#mainnav li, #footermenu li {
+    float: left;
+    list-style: none;
+    margin: 0;
+    line-height: 60px;
+    padding: 0 10px;
+
+}
+#mainnav li a, #footermenu li a {
+    color: #777;
+    font-weight: bold;
+    text-decoration: none;
+    
+    text-transform: uppercase;
+}
+a:hover {
+    opacity: 0.7;
+}
+/*----------Mainimag-------*/
+
+#mainimage {
+    background-image: url('../images/forest.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    position: relative;
+
+}
+#mainimage h1 {
+    color: #fff;
+    font-size: 4rem;
+    position: absolute;
+    top: 40vh;
+    text-align: center;
+    width: 100%;
+
+}
+/*-----------Sections--------*/
+section {
+    display: table;
+    padding: 100px 0 140px;
+    width: 100%;
+
+}
+#about {
+    background-color: rgb(119, 119, 119);
+    text-align: center;
+
+}
+.service {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+    float: left;
+    margin: 0 10px;
+    width: calc(100% /3 - 20px);
+    padding: 20px;
+    text-align: center;
+}
+
+
+.service img {
+    border-radius: 50%;
+}
+.service p {
+    height: 150px;
+    overflow-y: auto;
+}
+#contact {
+    background-color: rgb(169, 241, 175);
+
+}
+#circleimage {
+    background-image: url('../images/2728290.jpg');
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    height: 200px;
+    margin: 0 auto 50px;
+    width: 200px;
+}
+input, select {
+    width: calc(50% - 23px);
+}
+textarea{
+    width: calc(100% - 22px);
+}
+input, select, textarea {
+    border-radius: 10px;
+    border: none;
+    box-shadow: 1px 1px 5px #777 inset;
+    padding: 10px 15px;
+    margin: 10px;
+}
+input:focus, select:focus, textarea:focus {
+    border: none;
+    background-color: azure;
+    outline: none;
+}
+input[type="date"] {
+    padding: 8.5px 15px;
+}
+input:required {
+    border: 1px solid red;
+}
+textarea {
+    height: 150px;
+}
+button {
+    background-color: black;
+    border-radius: 10px;
+    color: #fff;
+    margin: 0 10px;
+    padding: 10px 15px;
+    text-transform: uppercase;
+    float: right;  
+    transition: all 500ms; */ verzögert überlendung*/
+}
+button:hover {
+    cursor: pointer;
+    color: black;
+    background-color: rgb(10, 243, 29);
+}
+/* FOOTEr */
+
+footer {
+    background-color: rgb(88, 38, 38);
+    display: table;
+    padding: 20px 0;
+    width: 100%;
+    
+}
+#footermenu li a {
+    color: #fff;
+}
+#footermenu {
+    display: table; /*Container ist genauso groß wie der inhalt*/
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    
+}
