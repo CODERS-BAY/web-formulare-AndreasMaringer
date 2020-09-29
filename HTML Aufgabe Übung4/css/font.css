@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'Komika Sketch';
+    src: url('../fonts/KomikaSketch.woff2') format('woff2'),
+        url('../fonts/KomikaSketch.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Komika Bubbles';
+    src: url('../fonts/KomikaBubbles.woff2') format('woff2'),
+        url('../fonts/KomikaBubbles.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Komika Glaze';
+    src: url('../KomikaGlaze.woff2') format('woff2'),
+        url('../KomikaGlaze.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Komika Tread';
+    src: url('../fonts/') format('woff2'),
+        url('../KomikaTread.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Komika Axis';
+    src: url('KomikaAxis.woff2') format('woff2'),
+        url('KomikaAxis.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Komika Boo';
+    src: url('KomikaBoo.woff2') format('woff2'),
+        url('KomikaBoo.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Komika Krak';
+    src: url('KomikaKrak.woff2') format('woff2'),
+        url('KomikaKrak.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Komika Parch';
+    src: url('KomikaParch.woff2') format('woff2'),
+        url('KomikaParch.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Komika Boss';
+    src: url('KomikaBoss.woff2') format('woff2'),
+        url('KomikaBoss.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Komika Boogie';
+    src: url('KomikaBoogie.woff2') format('woff2'),
+        url('KomikaBoogie.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
