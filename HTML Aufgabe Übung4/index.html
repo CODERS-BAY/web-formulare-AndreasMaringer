@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Aufgabe Übung4 Hotelzimmer-Buchungs-Formular</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <link rel="stylesheet" href="css/font.css">
+        <meta charset = "utf-8"/>
+    </head>
+    <body>
+        <header>
+                <title>Hotelzimmer-Buchung</title>
+        </header>
+        <div>
+            <form method="POST" action="contact.php" enctype="multipart/form-data">
+                <div id="titel">
+                    <h1>Hotelzimmer-Buchungs-Formular</h1>
+                </div>
+                
+                <section id="persönliches">
+                    <div class="container">
+                        <h2>PERSÖNLICHES</h2>
+                            <div>
+                                <h3>Anrede</h3>
+                                <label for="man">Herr</label>
+                                <input type="radio" name="salution" value="man" id="man">
+                                <label>Frau</label>
+                                <input type="radio" name="salution" value="woman">
+                            </div>
+                            <div>
+                                <h3>Namenstitel</h3>
+                                <label for="at">Titel: </label> 
+                                <select name="zusatz" id="at" multiple size="3">
+                                    <option value="t1">BA</option>
+                                    <option value="t2">Mag.</option>
+                                    <option value="t3">MA</option>
+                                    <option value="t4">Dr.</option>
+                                    <option value="t5">Dr.Dr.</option>
+                                </select>
+                            </div>
+                            <div>
+                                <h3>Name</h3>
+                                <label for="fn">Vorname</label>
+                                <input type="text" name="firstname" id="fn" placeholder="Vorname" max-length="30"  required>
+                                <br>
+                                <label for="ln">Nachname</label>
+                                <input type="text" name="lastname" id="ln" placeholder="Nachname" max-length="30" required>
+                                <h3>Altersangabe</h3>
+                                <label for="birthday">Geburtsdatum</label>
+                                <input type="date" name="age" id="birthday" required>
+                                <h3>Kontakt</h3>
+                                <input type="tel" name="phonenumber" placeholder="Telefonnummer" required>
+                                <br>
+                                <input type="email" name="email" placeholder="email Adresse eingeben" required>
+                            </div>
+                    </div>
+                </section>
+                <section id="aufenthalt">
+                    <div class="container">
+                        <h2>AUFENTHALT</h2>
+                            <div>
+                                <h3>Aufenthaltsdauer:</h3>
+                                <label for="arrival">Anreisedatum</label>
+                                <input type="date" name="arrival" required id="arrival"/>
+                                <label for="departure">Abreisedatum</label>
+                                <input type="date" name="departure" id="departure" required>
+                            </div>
+                            <div>
+                                <h3>Zimmerwahl:</h3>
+                                    <label for="summerroom">Sommerzimmer</label> 
+                                    <input type="radio" name="room" value="sr" id="summerroom">
+                                    <label for="fallroom">Herbstzimmer</label>
+                                    <input type="radio" name="room" value="fr" id="fallroom">
+                                    <label for="winterroom">Winterzimmer</label>
+                                    <input type="radio" name="room" value="wr" id="winterroom">
+                                    <label for="springroom">Frühlingszimmer</label>
+                                    <input type="radio" name="room" value="spr" id="springroom">
+                            </div>
+                            <div>
+                                <h3>Sonstiges:</h3>
+                                <label>Massage</label>
+                                <input type="checkbox" name="massage" value="m1">
+                                <label>Spa<label>
+                                <input type="checkbox" name="spa" value="s1">
+                                <label>Schwimmen</label>
+                                <input type="checkbox" name="swim" value="s2">
+                                <label>Tennis</label>
+                                <input type="checkbox" name="tennis" value="t1">
+                                <label>Kinoabend</label>
+                                <input type="checkbox" name="cinema" value="k1">
+                                <label>Bowling</label>
+                                <input type="checkbox" name="bowling" value="b1">
+                            </div>
+                    </div>
+                </section>
+                <section id="bezahlung">
+                    <div class="container">
+                        <h2>BEZAHLUNG</h2>
+                        <div>
+                            <h3>Zahlungsart:</h3>
+                            <select name="paymentmethod">
+                                <option name="instantpayment" value="ip">Sofortüberweisung</option>
+                                <option name="creditcard" value="cc">Kreditkarte</option>
+                                <option name="invoice" value="iv">Rechnung</option>
+                                <option name="paymentinadvance" value="pia">Vorkasse</option>
+                            </select>
+                            <br>
+                            <label for="ccn">Nur bei Zahlung mit Kreditkarte ausfüllen:</label>
+                            <input type="text" id="ccn" placeholder="Kreditkartennummer">
+                            <label for="senden">Überweisungsbestätigung senden </label>
+                            <input name="uploaddata" type="file" id="senden">
+
+                            
+                        </div>
+                    </div>
+
+                </section>
+            </form>
+        </div>
+
+
+    </body>
+</html>
